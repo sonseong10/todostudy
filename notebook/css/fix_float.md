@@ -6,42 +6,21 @@
 
 자식요소가 `float`속성을 가지게 된다면 부모, 형제요소는 자식의 높이를 감지할 수 없기 때문에를 인식하지 못하게 되지만 안에 텍스트(혹은 인라인 요소들)는 float된 요소가 어디있는지 알 수 있어서 종종 레이아웃이 망가지게 된다.
 
-빠른 설명을 위해 기본 스타일은 style태그를 사용합니다.
+## 부모요소 overflow 활용하기
 
-```html
-<head>
-  <style>
-    .parents {
-      margin: 0 auto;
-      width: 400px;
-      background-color: #666;
-    }
-    .children {
-      height: 200px;
-      width: 200px;
-      line-height: 200px;
-      text-align: center;
-      color: #fff;
-      font-size: 24px;
-      font-weight: 700;
-    }
-    .red {
-      background-color: #ff3232;
-      float: right;
-    }
-    .blue {
-      background-color: #1277ff;
-    }
-  </style>
-</head>
-<body>
-  <div class="parents">
-    <div class="children red">iteam</div>
-    <div class="children blue">iteam</div>
-  </div>
-</body>
-```
+- `overflow: auto` 또는 `overflow: hidden` 사용
+- 직관적인 방법이 아니여서 좋은 해결법은 아닙니다.
 
-## way1
+## 빈 요소에 clear 활용하기
 
-**부모 엘리먼트에 float 적용**
+- 빈요소를 추가하여 clear 부여하기
+- 의미없는 요소를 생성하여 좋은 해결법은 아닙니다.
+
+## 가상요소로 clear 적용
+
+- 의미없는 요소 생산(x)
+- 직관적인 해결법
+
+## Code로 확인하기
+
+[Link jsfiddle](https://jsfiddle.net/sonseong10/85dhn9go/24/)
