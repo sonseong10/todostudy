@@ -1,7 +1,5 @@
 # class(+ES6)
 
-## desc
-
 - template
 - declare once
 - no data in

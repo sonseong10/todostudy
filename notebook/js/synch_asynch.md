@@ -1,3 +1,5 @@
+# Synchronous & Asynchronous
+
 - JavaScript is **synchronous.**
 
 - Execute the code block by **order after**

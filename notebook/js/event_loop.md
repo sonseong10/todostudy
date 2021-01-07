@@ -11,7 +11,9 @@
 
 `Memory Heap` : 메모리 할당이 일어나는 곳.
 (ex, 우리가 프로그램에 선언한 변수, 함수 등이 담겨져 있음)
+
 `Call Stack` : 코드가 실행될 때 쌓이는 곳. **stack** 형태로 쌓임.
+
 `Stack(스택)` : 자료구조 중 하나, 선입후출(LIFO, Last In First Out)의 룰을 따릅니다.
 
 ![자바스크립트 비동기 처리 과정](http://sculove.github.io/blog/2018/01/18/javascriptflow/browser-structure.png)
@@ -20,6 +22,7 @@
 
 Web API 는 브라우저에서 제공하는 API 로, DOM, Ajax, Timeout 등이 있습니다.
 Call Stack에서 실행된 비동기 함수는 Web API를 호출하고,
+
 `Web API는 콜백함수를 Callback Queue에 밀어 넣습니다.`
 
 ### Callback Queue
@@ -69,12 +72,14 @@ requestAnimationFrame(function () {
 console.log("script end")
 ```
 
-> script start
-> script end
-> promise1
-> promise2
-> requestAnimationFrame
-> setTimeout
+```
+script start
+script end
+promise1
+promise2
+requestAnimationFrame
+setTimeout
+```
 
 ### event loop 작동순서
 
@@ -85,6 +90,10 @@ console.log("script end")
 ![event loop gif](https://miro.medium.com/max/700/0*47VbpeN4KkZOFRTS.gif)
 
 ![event loop gif](https://miro.medium.com/max/700/0*s4eSFL2uQeI_yVYo.gif)
+
+![event loop gif](https://miro.medium.com/max/700/0*6nwYdxp13B3rNcay.gif)
+
+![event loop gif](https://miro.medium.com/max/700/0*Z8_B7kp-5_cEbmue.gif)
 
 이미지 출처 [Link site](https://medium.com/@lydiahallie/javascript-visualized-promises-async-await-a3f1aad8a943)
 
