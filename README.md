@@ -3,10 +3,10 @@
 **Index**
 
 - Introduction
-- Web
-- HTML
-- CSS
-- JS(Javascript)
+- [Web](/notebook/web/intro.md)
+- [HTML](/notebook/html/intro.md)
+- [CSS](/notebook/css/intro.md)
+- [JS(Javascript)](/notebook/js/intro.md)
 
 ## Introduction
 
