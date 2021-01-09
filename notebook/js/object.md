@@ -58,7 +58,9 @@ console.log(user.job)
 // delete object
 delete user.job
 delete user["job"]
+```
 
+```js
 // 2. Computed properties
 // key should be always string
 console.log(user.name)
@@ -70,7 +72,9 @@ function printValue(obj, key) {
 }
 printValue(user, "age")
 printValue(user, "name")
+```
 
+```js
 //3. property value shorthand
 const user1 = { name: "foo", age: 12 }
 const user2 = { name: "pin", age: 20 }
@@ -105,11 +109,15 @@ function User(name, age) {
 }
 const user3 = new User("Tom", 30)
 console.log(user3)
+```
 
-// 5. in operator: property existence check ('key' in object)
+```js
+// 4. in operator: property existence check ('key' in object)
 console.log("name" in user3) // true
+```
 
-// 6. for..in VS for..of
+```js
+// 5. for..in VS for..of
 // for (key in obj)
 for (key in user3) {
   console.log(key)
@@ -120,8 +128,10 @@ const arr = [1, 2, 3, 4, 5]
 for (value of arr) {
   console.log(value)
 }
+```
 
-//7. cloning
+```js
+//6. cloning
 // object.assign(dest, [obj1, obj2...])
 const people1 = { name: "tami", age: 34 }
 const people2 = people1

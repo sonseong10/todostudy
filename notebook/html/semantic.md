@@ -34,7 +34,7 @@
       </li>
       <li>item2</li>
     </ul>
-  </nva>
+  </nav>
 </header>
 ```
 

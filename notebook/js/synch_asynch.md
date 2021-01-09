@@ -8,6 +8,8 @@
 
 ![js synchronous](https://adrianmejia.com/images/async-vs-sync-concurrency-in-javascript-large.png)
 
+## Synchronous & Asynchronous 활용법
+
 [Callback.pdf](https://github.com/sonseong10/todostudy/files/5779209/Callback.pdf)
 
 [Promise.pdf](https://github.com/sonseong10/todostudy/files/5779211/Promise.pdf)

@@ -5,7 +5,7 @@
 여기서 주의할 점은 "선언문" 이라는 것이며 "대입문"은 끌어올려지지 않습니다.
 
 ```js
-console.log(temp) // undifind
+console.log(temp) // undefined
 var temp = "hoisting"
 console.log(temp) // hoisting
 ```

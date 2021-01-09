@@ -8,7 +8,7 @@
 
 ## Index
 
-- [Browers](Browsers.md)
+- [Browers](browsers.md)
 - [DNS](dns.md)
 - [Intermet Work](internet_work.md)
 - [www, http and https](www_http_https.md)

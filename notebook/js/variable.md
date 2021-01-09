@@ -1,6 +1,6 @@
 # Variable
 
-### VAR(사용을 자제)
+## VAR(사용을 자제)
 
 ```js
 console.log(num) //undefined
@@ -17,7 +17,7 @@ var hoisting
 
 var is no block scope
 
-### let(+ES6)
+## let(+ES6)
 
 mutable(변경가능)
 
@@ -41,7 +41,7 @@ console.log(block) //
 console.log(grobal) //World
 ```
 
-### const(+ES6)
+## const(+ES6)
 
 immutable(변경불가)
 

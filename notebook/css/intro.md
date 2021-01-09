@@ -2,7 +2,7 @@
 
 # CSS
 
-CSS에서 알 수 있듯이 Cascading
+CSS에서 알 수 있듯이 Cascading 스타일이 적용되며 디자인의 모든 부분을 담당합니다.
 
 ## Index
 
