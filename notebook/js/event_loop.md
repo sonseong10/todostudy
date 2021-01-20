@@ -100,4 +100,7 @@ setTimeout
 **More**
 
 [Link site](http://sculove.github.io/blog/2018/01/18/javascriptflow/)
+
 [Link MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/EventLoop)
+
+[Link youtube](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=406s)
