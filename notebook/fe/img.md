@@ -39,6 +39,16 @@
 - 무손실 압축방식을 사용합니다.
 - 다른 웹 형식과 비교할 때 상당히 큰 파일 인 경향이 있습니다.
 
+### Etc
+
+#### Favicon
+
+웹 브라우저의 주소창에 표시되는 웹사이트나 웹페이지를 대표하는 아이콘입니다.
+
+직접 만들어 보기
+
+[Link Site](https://www.degraeve.com/favicon/)
+
 **More**
 
 [Link stackoverflow](https://stackoverflow.com/questions/2336522/what-are-the-different-usecases-of-png-vs-gif-vs-jpeg-vs-svg)
