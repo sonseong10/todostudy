@@ -44,9 +44,17 @@
 <title>은 최대한 변경을 자제
 레이아웃 구성은
  <header>, <footer>, <article>, <section>, <main> 그리고 <nav>사용
-<b>, <i> 태그 대신 <strong>, <em> 사용
-한 페이지당 필수적으로 <h1> 태그 1회만 사용
-리스트를 구성할때 <ul>, <ol> 그리고 <dl> 사용 등등...
+<b>, <i> 태그 대신 <strong>, <em> 사용, 리스트를 구성할때 <ul>, <ol> 그리고 <dl> 사용 등등...
+```
+
+### 수정(2021.04.11)
+
+~~한 페이지당 필수적으로 `<h1>` 태그 1회만 사용~~
+
+[해당 사이트](https://cultofweb.com/blog/multiple-h1-heading-tags/)를 통해
+
+```
+✅ HTML5 이후 한 페이지(.html)안에 여러 h1 태그는 SEO에 나쁘지 않다는 사실을 배웠습니다.
 ```
 
 ### Result😎
